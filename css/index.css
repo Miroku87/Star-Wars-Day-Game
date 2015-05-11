@@ -1,0 +1,123 @@
+@font-face {
+	font-family: "DINEngschrift";
+	src: url("../fonts/dine1.ttf") format("opentype");
+}
+@font-face {
+	font-family: "Aero";
+	src: url("../fonts/aero.ttf") format("opentype");
+}
+body {
+	background: #000 url(../img/bg3.jpg) center top no-repeat;
+	margin-left: 0;
+	padding-left: 0;
+	width: 100%;
+}
+#container {
+	width: 1130px;
+	height: 1147px;
+	margin: 0 auto;
+	margin-top: 160px;
+}
+
+#floating-top {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	transition: background .5s linear;
+}
+
+#top {
+	width: 1130px;
+	height: 150px;
+	padding: 10px 0 0 0;
+	font-size: 16pt;
+	font-family: "DINEngschrift";
+	color: #F4D100;
+	margin: 0 auto;
+}
+
+.blackBg{
+	background: #000;
+}
+
+#top div {
+	float:left
+}
+
+#bottom {
+	width: 100%;
+	font-size: 14pt;
+	font-family: "DINEngschrift";
+	color: #F4D100;
+}
+
+.text
+{
+	font-size: 14pt;
+	font-family: "DINEngschrift";
+	color: #F4D100;
+}
+
+img {
+	vertical-align: middle;
+}
+.col {
+	width: 50%;
+	float: left;
+}
+.small-col {
+	width: 50%;
+	float: left;
+}
+
+#reb{
+	background: url(../img/republic.png) center center no-repeat;
+}
+
+#emp{
+	background: url(../img/empire.png) center center no-repeat;
+}
+
+#bottom {
+	clear:both;
+}
+
+.big {
+	font-size: 14pt;
+	font-family: "Aero";
+	color: #F4D100;
+}
+h1 {
+	font-size: 24pt;
+	font-family: "Aero";
+	color: #F4D100;
+	text-align: center;
+	margin-top: 0;
+}
+h2 {
+	clear:both;
+	font-size: 18pt;
+	font-family: "Aero";
+	color: #F4D100;
+	margin-top: 0;
+}
+h3 {
+	clear:both;
+	font-size: 16pt;
+	font-family: "DINEngschrift";
+	color: #F4D100;
+	margin-bottom: 0;
+}
+
+@media screen and (max-width: 1150px) {   
+	#container {
+		width: 800px;
+		margin-top: 280px;
+	}
+	
+	#top .desc {
+		width:600px;
+	}
+  
+}
